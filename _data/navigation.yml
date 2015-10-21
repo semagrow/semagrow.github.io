@@ -1,0 +1,38 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: Features
+  url: "/features/"
+  side: left
+
+- title: Getting Started
+  url: "/getting-started/"
+  side: left
+
+- title: Downloads
+  url: "/downloads/"
+  side: left
+
+- title: Documentation
+  url: "/documentation/"
+  side: left
+  dropdown:
+  - title: JavaDocs
+    url: "/documentation/javadocs"
+
+- title: FAQ
+  url: "/faq"
+  side: left
+
+- title: "Blog"
+  url: "/blog/"
+  side: right
+
+- title: "Community"
+  url: "/community/"
+  side: right
+
+- title: "Search"
+  url: "/search/"
+  side: right
