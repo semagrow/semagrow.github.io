@@ -33,7 +33,7 @@
   side: left
 
 - title: "News"
-  url: "/blog/"
+  url: "/news/"
   side: right
 
 - title: "Getting Involved"
