@@ -26,7 +26,7 @@ author: phlow
 #
 
 #url: "http://localhost:4000"
-url: "http://semagrow.github.io/"
+url: "http://semagrow.github.io"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content
