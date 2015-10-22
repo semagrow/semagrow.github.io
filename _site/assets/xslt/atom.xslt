@@ -339,9 +339,9 @@
 
                       
                         
-                      
+                        
 
-                      <li><a href="http://localhost:4000/wiki/">Wiki</a></li>
+                      <li><a href="https://github.com/semagrow/semagrow/wiki" target="_blank">Wiki</a></li>
                     
 
                       
