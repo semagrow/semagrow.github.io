@@ -9,30 +9,43 @@
 - title: Getting Started
   url: "/getting-started/"
   side: left
+  dropdown:
+  -title: Online Demo
+    url: "/getting-started/onlinedemo/"
+    side: left
+  -title: Deployment Instructions
+    url: "/getting-started/deployment-instructions/"
+    side: left
 
-- title: Downloads
-  url: "/downloads/"
-  side: left
-
-- title: Documentation
-  url: "/documentation/"
+- title: Technical
+  url: "/technical/"
   side: left
   dropdown:
-  - title: JavaDocs
-    url: "/documentation/javadocs"
+  -title: Configuration
+    url: "/configuration/"
+    side: left
+  -title: Architecture
+    url: "/configuration/architecture/"
+    side: left
+  -title: Wiki
+    url: "/configuration/wiki/"
+    side: left
+  -title: Reports and Publications
+    url: "/configuration/reports_and_publications/"
+    side: left
 
 - title: FAQ
   url: "/faq"
   side: left
 
-- title: "Blog"
+- title: "News"
   url: "/blog/"
   side: right
 
-- title: "Community"
-  url: "/community/"
+- title: "Getting Involved"
+  url: "/getting-involved/"
   side: right
 
-- title: "Search"
-  url: "/search/"
+- title: "Contact"
+  url: "/contact/"
   side: right
