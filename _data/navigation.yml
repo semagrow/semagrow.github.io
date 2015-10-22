@@ -11,7 +11,7 @@
   side: left
   dropdown:
   - title: Online Demo
-    url: "/onlinedemo/"
+    url: "/online_demo/"
   - title: Deployment Instructions
     url: "/deployment-instructions/"
 
