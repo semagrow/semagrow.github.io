@@ -189,34 +189,10 @@
 
           
           
-        
-
-              
-                
-              
-
-          
-          
             
             
               <li class="divider"></li>
-              <li><a href="http://localhost:4000/blog/">Blog</a></li>
-
-            
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-            
-            
-              <li class="divider"></li>
-              <li><a href="http://localhost:4000/community/">Community</a></li>
+              <li><a href="http://localhost:4000/blog/">News</a></li>
 
             
             
@@ -232,7 +208,23 @@
             
             
               <li class="divider"></li>
-              <li><a href="http://localhost:4000/search/">Search</a></li>
+              <li><a href="http://localhost:4000/getting-involved/">Getting Involved</a></li>
+
+            
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a href="http://localhost:4000/contact/">Contact</a></li>
 
             
             
@@ -253,7 +245,7 @@
 
             
             
-              <li><a href="http://localhost:4000/">Home</a></li>
+              <li><a href="http://localhost:4000">Home</a></li>
               <li class="divider"></li>
 
             
@@ -287,43 +279,9 @@
 
             
             
-              <li><a href="http://localhost:4000/getting-started/">Getting Started</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-
-            
-            
-              <li><a href="http://localhost:4000/downloads/">Downloads</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-
-            
-            
 
               <li class="has-dropdown">
-                <a href="http://localhost:4000/documentation/">Documentation</a>
+                <a href="#">Getting Started</a>
 
                   <ul class="dropdown">
                     
@@ -332,7 +290,14 @@
                         
                       
 
-                      <li><a href="http://localhost:4000/documentation/javadocs">JavaDocs</a></li>
+                      <li><a href="http://localhost:4000/onlinedemo/">Online Demo</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://localhost:4000/deployment-instructions/">Deployment Instructions</a></li>
                     
                   </ul>
                   
@@ -351,7 +316,58 @@
 
             
             
-              <li><a href="http://localhost:4000/faq">FAQ</a></li>
+
+              <li class="has-dropdown">
+                <a href="#">Technical</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://localhost:4000/configuration/">Configuration</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://localhost:4000/architecture/">Architecture</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://localhost:4000/wiki/">Wiki</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://localhost:4000/reports_and_publications/">Reports and Publications</a></li>
+                    
+                  </ul>
+                  
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+              <li><a href="http://localhost:4000/faq/">FAQ</a></li>
               <li class="divider"></li>
 
             

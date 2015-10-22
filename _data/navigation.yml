@@ -1,5 +1,5 @@
 - title: Home
-  url: "/"
+  url: ""
   side: left
 
 - title: Features
@@ -7,35 +7,29 @@
   side: left
 
 - title: Getting Started
-  url: "/getting-started/"
+  url: "#"
   side: left
   dropdown:
-  -title: Online Demo
-    url: "/getting-started/onlinedemo/"
-    side: left
-  -title: Deployment Instructions
-    url: "/getting-started/deployment-instructions/"
-    side: left
+  - title: Online Demo
+    url: "/onlinedemo/"
+  - title: Deployment Instructions
+    url: "/deployment-instructions/"
 
 - title: Technical
-  url: "/technical/"
+  url: "#"
   side: left
   dropdown:
-  -title: Configuration
+  - title: Configuration
     url: "/configuration/"
-    side: left
-  -title: Architecture
-    url: "/configuration/architecture/"
-    side: left
-  -title: Wiki
-    url: "/configuration/wiki/"
-    side: left
-  -title: Reports and Publications
-    url: "/configuration/reports_and_publications/"
-    side: left
+  - title: Architecture
+    url: "/architecture/"
+  - title: Wiki
+    url: "/wiki/"
+  - title: Reports and Publications
+    url: "/reports_and_publications/"
 
 - title: FAQ
-  url: "/faq"
+  url: "/faq/"
   side: left
 
 - title: "News"
