@@ -207,10 +207,23 @@
           
             
             
-              <li class="divider"></li>
-              <li><a href="http://localhost:4000/getting-involved/">Getting Involved</a></li>
 
-            
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a href="http://localhost:4000/getting-involved/">Getting Involved</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+                        
+                        
+
+                      <li><a href="https://github.com/semagrow/semagrow" target="_blank">Github</a></li>
+                    
+                  </ul>
+                  
+              </li>
             
           
         
@@ -339,9 +352,9 @@
 
                       
                         
-                        
+                      
 
-                      <li><a href="https://github.com/semagrow/semagrow/wiki" target="_blank">Wiki</a></li>
+                      <li><a href="http://localhost:4000/wiki/">Wiki</a></li>
                     
 
                       
