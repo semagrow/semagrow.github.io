@@ -1,0 +1,297 @@
+<html>	
+<head>
+	<script src="../js/jquery-2.1.1.js"></script>
+		<script src="../js/reveal.min.js"></script>
+</head>
+<link rel="stylesheet" href="../css/bubbles.css" id="theme">
+<link rel="stylesheet" href="../css/transparency.css">
+<body id="body" style="overflow:hidden">
+	<div id="cf2" class="shadow">
+	<div id="s">
+		<div class="zoom-images">
+			<img class="bottom" src="../images/architecture-1.png">
+		</div>
+		<div id="b"></div>
+	</div>
+		<div class="zoom2">
+    		<img id="asd" class="top" src="../images/architecture-2.png">
+    	</div>
+</div>
+<!--<blockquote class="first-quote">
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis euismod nisl eu vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut malesuada sapien non gravida euismod. Maecenas semper tincidunt gravida. Nulla lacinia pellentesque scelerisque. Morbi dictum, mauris sed tincidunt maximus, nisi mauris suscipit sapien, in sodales sem leo sit amet nisl. Sed augue eros, ullamcorper commodo fermentum vel, ullamcorper sit amet ex. Quisque lacinia condimentum tellus in elementum. Sed sit amet neque tellus. Praesent a dignissim enim. Duis rhoncus et nunc vel sagittis. </p>
+</blockquote>-->
+</body>
+<script>
+	var animation = 1000;
+	var unzoomed = true;
+	var last_pressed = 0;
+	var topp, leftt, bubble, initZoomm, zoomm, x, y;
+	$(function(){
+  $("#body").bind("keydown", function (event) {
+	  $('#asd').fadeOut("fast");
+    if(event.which == 49){
+		last_pressed = 1;
+	}
+	else if(event.which == 50){
+		last_pressed = 2;
+	}
+	else if(event.which == 51){
+		last_pressed = 3;
+	}
+	else if(event.which == 52){
+		last_pressed = 4;
+	}
+	if(window.frameElement.id == "query21"){
+		if(unzoomed){
+			if(last_pressed == 1){
+				initZoomm = 1;
+				zoomm = 1.6;
+				x = 0;
+				y = 150;
+				bubble = "<blockquote class=\"first-quote\">"+
+				"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis euismod nisl eu vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut malesuada sapien non gravida euismod. Maecenas semper tincidunt gravida. </p>"+
+				"</blockquote>";
+
+			}
+			else if(last_pressed == 2){
+				initZoomm = 1;
+				zoomm = 1.6;
+				x = 600;
+				y = 100;
+				bubble = "<blockquote class=\"first-quote\">"+
+				"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis euismod nisl eu vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut malesuada sapien non gravida euismod. Maecenas semper tincidunt gravida. </p>"+
+				"</blockquote>";
+			}
+			else if(last_pressed == 3){
+				initZoomm = 1;
+				zoomm = 1.6;
+				x = 0;
+				y = 600;
+				bubble = "<blockquote class=\"first-quote\">"+
+				"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis euismod nisl eu vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut malesuada sapien non gravida euismod. Maecenas semper tincidunt gravida. </p>"+
+				"</blockquote>";
+			}
+			else if(last_pressed == 4){
+				initZoomm = 1;
+				zoomm = 1.6;
+				x = 600;
+				y = 600;
+				bubble = "<blockquote class=\"first-quote\">"+
+				"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis euismod nisl eu vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut malesuada sapien non gravida euismod. Maecenas semper tincidunt gravida. </p>"+
+				"</blockquote>";
+			}
+		}
+		else{
+				initZoomm = 1.6;
+				zoomm = 1;
+				bubble = "";
+		}
+		unzoomed = !unzoomed;
+	}
+	
+	
+  });
+  
+});
+
+	$(function(){
+  $("#body").bind("keyup", function (event) {
+	  
+		  if(!unzoomed){
+			  setTimeout(function () {
+						$(".zoom2").fadeOut(2000);
+				setTimeout(function () {
+					  if(last_pressed == 1){
+						document.getElementById("b").innerHTML = bubble;
+					
+					 }
+					 else if(last_pressed == 2){
+						document.getElementById("b").innerHTML = bubble;
+					 }
+				}, 2000);
+			}, animation);
+		}
+		else{
+			$(".zoom2").fadeIn(2000);
+			document.getElementById("b").innerHTML = bubble;
+		}
+	  
+	});
+  
+});
+
+
+ var clicked = false;
+ $(document).ready(function() {
+  $("#cf_onclick").click(function() {parent.focus();
+  if(!clicked){$("#cf2 img.top").toggleClass("transparent");clicked = true;}
+});
+});
+</script>
+
+
+
+
+
+
+
+
+<script>
+!function($){
+  
+  var defaults = {
+    zoom: 1,
+    initZoom: 1.15,
+    animationTime: 2000,
+    easing: "ease",
+    onZoom: null,
+    beforeZoom: null,
+    afterZoom: null,
+    offsetTop: 0,
+    offsetBottom: 200,
+    //top: "0px",
+    //left: "0px",
+    targetX: "0",
+    targetY: "0",
+    fade: false
+  };  
+  
+  
+  $.fn.zoomScroller = function(options){
+    return this.each(function(){
+      var settings = $.extend({}, defaults, options),
+          el = $(this),
+          originY = 0,
+          bg = el.find("> img");
+
+      // Wrap all list items in a scroller to be used to scroll    
+      el.addClass("zs-wrapper").css("overflow", "hidden").prepend("<div class='zs-img'></div>");
+      bg.remove();
+      var img = el.find("> .zs-img");
+      
+      img.css({
+        background: "url(" + bg.attr("src") + ") center center no-repeat",
+        "background-size": "cover",
+        overflow: "hidden",
+        width: "100%",
+        height: "100%",
+        //top: settings.top,
+		//left: settings.left,
+        targetX: x,
+        targetY: y,
+        position: "absolute",
+        "-webkit-transform": "scale(" + initZoomm + ")",
+        "-moz-transform": "scale(" + initZoomm + ")",
+        "-o-transform": "scale(" + initZoomm + ")",
+        "transform": "scale(" + initZoomm + ")",
+        "transition": "transform " + animation + "ms " + "ease",
+        "-webkit-transition": "-webkit-transform " + animation + "ms " + "ease",
+        "-moz-transition": "-moz-transform " + animation + "ms " + "ease",
+        "-ms-transition": "-o-transform " + animation + "ms " + "ease"
+        
+      });
+      // Swipe Support
+      var debut,
+          isTouching = false;
+      $("body").on('touchstart', function() {
+        if (event.touches.length == 1) {
+          debut = event.touches[0].pageY;
+          isTouching = true;
+        }
+      });   
+      
+      $("body").on('touchend', function() {
+        isTouching = false;
+        debut = null;
+      })
+
+      // bind on keyup=1/2/3/4
+      $(document).on('keyup', function(e, delta) {
+        originY = $(document).scrollTop();
+        if(e.which >= 49 && e.which <=52){
+			// Zoom starts/stops only when object is on screen
+			if (el.is_on_screen($(document).scrollTop())) {
+  console.log("here");     
+			  if (typeof settings.beforeZoom == 'function') {}//settings.beforeZoom(img.parent(), "in"); 
+			  img.css({
+				"-webkit-transform": "scale(" + zoomm + ")",
+				"-webkit-transform-origin": x+" "+y+" "+"0", 
+				"-moz-transform": "scale(" + zoomm + ")",
+				"-moz-transform-origin": x+" "+y+" "+"0",
+				"-o-transform": "scale(" + zoomm + ")",
+				"-o-transform-origin": x+" "+y+" "+"0",
+				"transform": "scale(" + zoomm + ")",
+				"transform-origin": x+" "+y+" "+"0",
+			  }).on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e) {
+				if (typeof settings.afterZoom == 'function') {}//settings.afterZoom(img.parent(), "in"); 
+			  });
+			  if (typeof settings.onZoom == 'function') {}//settings.onZoom(img.parent(), "in"); 
+			} /*else {
+			  if (typeof settings.beforeZoom == 'function') settings.beforeZoom(img.parent(), "out"); 
+			  img.css({
+				"-webkit-transform": "scale(" + initZoomm + ")",
+				"-moz-transform": "scale(" + initZoomm + ")",
+				"-o-transform": "scale(" + initZoomm + ")",
+				"transform": "scale(" + initZoomm + ")"
+			  }).on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e) {  
+				if (typeof settings.afterZoom == 'function') settings.afterZoom(img.parent(), "in"); 
+			  });
+			  if (typeof settings.onZoom == 'function') settings.onZoom(img.parent(), "out"); 
+			}*/
+		}
+      
+      });
+      
+      // Function Check if the when the element appears on the screen
+      
+      $.fn.is_on_screen = function(originY){
+        var win = el;
+        var viewport = {
+            top : originY
+        };
+
+        viewport.bottom = viewport.top + $(window).height() ;
+        
+        var bounds = this.offset();
+        
+        
+        bounds.top = this.offset().top;
+        bounds.bottom = this.offset().top + this.height();
+        return (!(viewport.bottom - settings.offsetBottom < bounds.top || viewport.top - settings.offsetTop > bounds.bottom ));
+      };
+    });
+    
+  }
+  
+
+}(window.jQuery);
+
+//initialization (bound to change according to the key pressed)
+	$(".zoom-images").zoomScroller({
+   initZoom: initZoomm,
+   zoom: zoomm,
+   animationTime: animation, 
+   easing: "ease", 
+   offsetTop: 0,
+   offsetBottom: 0,
+   //top: topp,
+   //left: leftt,
+   targetX: x,
+   targetY: y
+ });
+//initialization (bound to change according to the key pressed)
+	$(".zoom2").zoomScroller({
+   initZoom: initZoomm,
+   zoom: zoomm,
+   animationTime: animation, 
+   easing: "ease", 
+   offsetTop: 0,
+   offsetBottom: 0,
+   //top: topp,
+   //left: leftt,
+   targetX: x,
+   targetY: y,
+   fade: true
+ });
+</script>
+</html>

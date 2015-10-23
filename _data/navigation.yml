@@ -1,0 +1,48 @@
+- title: Home
+  url: ""
+  side: left
+
+- title: Features
+  url: "/features/"
+  side: left
+
+- title: Getting Started
+  url: "#"
+  side: left
+  dropdown:
+  - title: Online Demo
+    url: "/online_demo/"
+  - title: Deployment Instructions
+    url: "/deployment-instructions/"
+
+- title: Technical
+  url: "#"
+  side: left
+  dropdown:
+  - title: Configuration
+    url: "/configuration/"
+  - title: Architecture
+    url: "/architecture/"
+  - title: Wiki
+    url: "/wiki/"
+  - title: Reports and Publications
+    url: "/reports_and_publications/"
+
+- title: FAQ
+  url: "/faq/"
+  side: left
+
+- title: "News"
+  url: "/news/"
+  side: right
+
+- title: "Getting Involved"
+  url: "/getting-involved/"
+  side: right
+  dropdown:
+  - title: Github
+    url: "https://github.com/semagrow/semagrow"
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

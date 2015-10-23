@@ -1,0 +1,15 @@
+---
+layout:  frontpage
+header: no
+---
+
+<script type="text/javascript">
+	
+	function focus_(){
+		document.getElementById("arch").focus();
+	}
+
+	document.getElementById("header-home").style.height = "100%";
+	document.getElementById("header-home").innerHTML = "<iframe id=\"arch\" src=\"arch.html\" width=100% height=100% frameborder=no scrolling=no onload=\"focus_()\"/>";
+
+</script>
