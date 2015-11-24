@@ -81,8 +81,10 @@ Eleon metadata editor at the Eleon User Guide. Each time you modify the
 
 {% include alert terminal='service semagrow restart' %}
 
-The usage of the SemaGrow stack is performed through a browser, by
-accessing <samp>http://localhost:8080/SemaGrow</samp>.
+Semagrow is a SPARQL endpoint meant to be used by a client
+application, but a human-usable Web app is also provided for testing
+and monitoring. The Semagrow Web app can be accessed at
+<samp>http://localhost:8080/SemaGrow</samp>.
 Clicking on the “Sparql” tab presents the SPARQL query environment (Screenshot 1).
 
 By submitting SPARQL queries, one can get relevant results from the datasets

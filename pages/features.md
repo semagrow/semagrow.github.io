@@ -3,19 +3,31 @@ layout: page
 title: "Features"
 subheadline: "Why another Federation Engine?"
 show_meta: false
-teaser: "This is a very catchy teaser"
+teaser: "Semagrow is both algorithmically sophisticated and well engineered"
 permalink: "/features/"
 header: no
 ---
-## Features
+## Data integration made easy
 
-* Responsive Gallery, Videos, Grid, Typography,...
-* 100% GitHub Pages friendly
-* Easy editable navigation, footer and social media links
-* Language Ready – just translate one file.
-* Lots of possibilities to customize it to your needs
-* Lots of different headers
-* Various post formats to let your content shine
-* Uses Jekyll 3.0
-* Multiple possibilities to use images in different ways
-* Fine typography
+blah
+
+
+## Advanced query execution planning
+
+The Semagrow query planner exploits metadata about the nodes of the
+federation to optimize query execution. This metadata follows our
+[Sevod vocabulary][1]. Sevod extends the [VoID vocabulary][2] with
+statistical information akin to database histograms.
+
+
+
+
+## Non-blocking query execution
+
+The multi-threaded execution engine of the Semagrow Stack is developed
+following the reactive paradigm, operating asynchronously and
+non-blocking in the face of unresponsive or slow data producers.
+
+
+ [1]: http://www.w3.org/2015/03/sevod
+ [2]: http://www.w3.org/TR/void/ 
