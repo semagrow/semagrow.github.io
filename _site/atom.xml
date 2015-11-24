@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>SemaGrow</title>
-	<updated>2015-10-23T14:13:52+03:00</updated>
+	<updated>2015-11-24T15:45:04+02:00</updated>
 
 	<subtitle>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</subtitle>
 
@@ -12,11 +12,9 @@
 		
 		<author>
 			
-				<name>Phlow</name>
+				<name>semagrow</name>
 			
 			
-			
-				<uri>http://phlow.de/</uri>
 			
 		</author>
 	
@@ -37,11 +35,9 @@
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>phlow</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -494,6 +490,58 @@ element&lt;/td&gt;
 		</entry>
 	
 		<entry>
+			<id>http://localhost:4000/events/Federated-Querying-Workshop/</id>
+			<title>Federated querying workshop</title>
+			<link href="http://localhost:4000/events/Federated-Querying-Workshop/" rel="alternate" type="text/html" title="Federated querying workshop" />
+			<updated>2015-11-16T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Stasinos Konstantopoulos</name>
+					
+					
+					
+						<uri>https://github.com/stasinos</uri>
+					
+				</author>
+			
+			<summary>Semagrow was represented at the Federated Querying Workshop.</summary>
+			<content type="html" xml:base="http://localhost:4000/events/Federated-Querying-Workshop/">&lt;p&gt;Angelos Charalambidis and myself represented Semagrow at the
+&lt;a href=&quot;http://workshops.semdev.org/2015/federated-querying-workshop&quot;&gt;Federated Querying Workshop&lt;/a&gt; organized by &lt;a href=&quot;https://www.iMinds.be&quot;&gt;iMinds&lt;/a&gt; in Gent on
+November 13th. The workshop brought together several researchers
+working on federated querying, aiming to coalesce them into a
+community. Towards this end, workshop participants decided to initiate
+the &lt;a href=&quot;https://groups.google.com/d/forum/rdf-query-processing&quot;&gt;RDF Query Processing&lt;/a&gt; discussion forum and to try to establish
+a regular series of workshops.&lt;/p&gt;
+
+&lt;p&gt;A major topic discussed on that day was benchmarking and
+&lt;a href=&quot;https://code.google.com/p/fbench&quot;&gt;FedBench&lt;/a&gt;: despite the catalytic role that the latter has played
+in federated querying research, the seems to be consensus that a new
+benchmark is needed.&lt;/p&gt;
+
+&lt;p&gt;Another topic was issues associated with federating data sources that
+support extensions of the core SPARQL specification, such as the
+spatio-temporal geoSPARQL and stSPARQL extensions. And, more
+ambitiously, how to federate data stores that support a different, but
+apparently compatible, syntax such as Cassandra CQL.&lt;/p&gt;
+
+</content>
+
+			
+				<category term="events" />
+			
+			
+				<category term="blog" />
+			
+				<category term="event participation" />
+			
+
+			<published>2015-11-16T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
 			<id>http://localhost:4000/design/comments/</id>
 			<title>Now with Comments!</title>
 			<link href="http://localhost:4000/design/comments/" rel="alternate" type="text/html" title="Now with Comments!" />
@@ -503,11 +551,9 @@ element&lt;/td&gt;
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>phlow</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -527,6 +573,43 @@ element&lt;/td&gt;
 		</entry>
 	
 		<entry>
+			<id>http://localhost:4000/events/Semagrow-site-online/</id>
+			<title>Semagrow site online</title>
+			<link href="http://localhost:4000/events/Semagrow-site-online/" rel="alternate" type="text/html" title="Semagrow site online" />
+			<updated>2015-10-23T00:00:00+03:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Stasinos Konstantopoulos</name>
+					
+					
+					
+						<uri>https://github.com/stasinos</uri>
+					
+				</author>
+			
+			<summary>The SemaGrow project is approaching completion in a few days, and we are preparing for life after EC funding.</summary>
+			<content type="html" xml:base="http://localhost:4000/events/Semagrow-site-online/">&lt;p&gt;The &lt;a href=&quot;http://semagrow.eu&quot;&gt;SemaGrow project&lt;/a&gt; is approaching completion in a few days, and we
+are preparing for life after European Commission funding.
+We set up this site to collect all the bits and pieces around the
+outcomes of the project, and to give Semagrow a life of its own beyond
+the end of the project.&lt;/p&gt;
+
+</content>
+
+			
+				<category term="events" />
+			
+			
+				<category term="blog" />
+			
+
+			<published>2015-10-23T00:00:00+03:00</published>
+		</entry>
+	
+		<entry>
 			<id>http://localhost:4000/design/no-header/</id>
 			<title>No Header</title>
 			<link href="http://localhost:4000/design/no-header/" rel="alternate" type="text/html" title="No Header" />
@@ -536,11 +619,9 @@ element&lt;/td&gt;
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>phlow</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -602,11 +683,9 @@ element&lt;/td&gt;
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>phlow</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -672,11 +751,9 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>phlow</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -743,11 +820,9 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>phlow</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -806,11 +881,9 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>phlow</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -881,11 +954,9 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>phlow</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -940,152 +1011,6 @@ image:
 			
 
 			<published>2014-10-09T00:00:00+03:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4000/design/header-image-pattern/</id>
-			<title>Header Image With Pattern</title>
-			<link href="http://localhost:4000/design/header-image-pattern/" rel="alternate" type="text/html" title="Header Image With Pattern" />
-			<updated>2014-10-08T00:00:00+03:00</updated>
-
-			
-				
-				<author>
-					
-						<name>Phlow</name>
-					
-					
-					
-						<uri>http://phlow.de/</uri>
-					
-				</author>
-			
-			<summary>Feeling Responsive allows you to use all kinds of headers. This example shows a header image in front of a pattern.</summary>
-			<content type="html" xml:base="http://localhost:4000/design/header-image-pattern/">&lt;p&gt;It’s so easy to do. Just define in front matter an image and a pattern image. Instead of a pattern you can also use a color. Have a look at the &lt;a href=&quot;http://localhost:4000/design/header-image-color/&quot;&gt;example with a background color&lt;/a&gt;.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;header:
-    image:  &quot;header_unsplash_2-970x.jpg&quot;
-    pattern:  &quot;pattern_concrete.jpg&quot;
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="design" />
-			
-			
-				<category term="design" />
-			
-				<category term="pattern" />
-			
-				<category term="header" />
-			
-
-			<published>2014-10-08T00:00:00+03:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4000/design/gallery/</id>
-			<title>A Beautiful Gallery</title>
-			<link href="http://localhost:4000/design/gallery/" rel="alternate" type="text/html" title="A Beautiful Gallery" />
-			<updated>2014-09-15T00:00:00+03:00</updated>
-
-			
-				
-				<author>
-					
-						<name>Phlow</name>
-					
-					
-					
-						<uri>http://phlow.de/</uri>
-					
-				</author>
-			
-			<summary>Wanna create a responsive gallery to showcase your portfolio, recent photos or images? It&#39;s quite easy thanks to Foundation and &lt;a href=&#39;http://foundation.zurb.com/docs/components/clearing.html&#39;&gt;Clearing Lightbox&lt;/a&gt;.</summary>
-			<content type="html" xml:base="http://localhost:4000/design/gallery/">&lt;p&gt;You just need to choose a template like the &lt;a href=&quot;http://localhost:4000/design/page/&quot;&gt;&lt;code&gt;page&lt;/code&gt;&lt;/a&gt;- or &lt;a href=&quot;http://localhost:4000/design/page-fullwidth/&quot;&gt;&lt;code&gt;page-fullwidth&lt;/code&gt;&lt;/a&gt;-template and then use some foundation magic.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;ul class=&quot;clearing-thumbs small-block-grid-3&quot; data-clearing=&quot;&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/unsplash_1.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/unsplash_1_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/unsplash_2.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/unsplash_2_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/unsplash_3.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/unsplash_3_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/unsplash_4.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/unsplash_4_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/unsplash_5.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/unsplash_5_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/unsplash_6.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/unsplash_6_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;clearing-lightbox-code&quot;&gt;Clearing Lightbox Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://foundation.zurb.com/docs/components/clearing.html&quot;&gt;Clearing Lightbox&lt;/a&gt; is so flexible especially when using the &lt;a href=&quot;http://foundation.zurb.com/docs/components/block_grid.html&quot;&gt;block grid&lt;/a&gt;. For extensive documentation visit the &lt;a href=&quot;http://foundation.zurb.com/docs/components/clearing.html&quot;&gt;foundation docs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;clearing-thumbs small-block-grid-3&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-clearing&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/img&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-caption=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;caption 1&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/thumbnail&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/img&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-caption=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;caption 2&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/thumbnail&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/img&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-caption=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;caption 3&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/thumbnail&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h2 class=&quot;t60&quot; id=&quot;other-post-formats&quot;&gt;Other Post Formats&lt;/h2&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/gallery/&quot;&gt;Templates &amp;middot; &lt;strong&gt;A Beautiful Gallery&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/video/&quot;&gt;Templates &amp;middot; &lt;strong&gt;Video Template&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/post-right-sidebar/&quot;&gt;Templates &amp;middot; &lt;strong&gt;Page/Post Right Sidebar&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/page/&quot;&gt;Templates &amp;middot; &lt;strong&gt;The Post/Page Template&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/design/post-left-sidebar/&quot;&gt;Templates &amp;middot; &lt;strong&gt;Page/Post With Left Sidebar&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="design" />
-			
-			
-				<category term="post format" />
-			
-
-			<published>2014-09-15T00:00:00+03:00</published>
 		</entry>
 	
 </feed>

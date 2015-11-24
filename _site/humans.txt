@@ -1,8 +1,22 @@
 /* TEAM */
 
-Name: Phlow
-Site: http://phlow.de/
-Twitter: @phlow
+Name: George Stavrinos
+Site: https://github.com/gstavrinos
+
+Name: Angelos Charalambidis
+Site: https://github.com/acharal
+
+Name: Antonis Troumpoukis
+Site: https://github.com/antru6
+
+Name: Giannis Mouchakis
+Site: https://github.com/gmouchakis
+
+Name: Jürgen Jakobitsch
+Site: https://github.com/turnguard
+
+Name: Stasinos Konstantopoulos
+Site: https://github.com/stasinos
 
 
 /* THANKS */
@@ -16,7 +30,7 @@ Theme: http://phlow.github.io/feeling-responsive/
 
 /* SITE */
 
-Last Updated: 2015/10/23
+Last Updated: 2015/11/24
 Standards: HTML5, CSS3
 Software: Sublime Text, Chrome, Jekyll, Git, Imageoptim, JPEGMini, Gulp.js, Sass
 Components: Foundation Framework, Modernizr, jQuery, Backstretch.js, Reveal

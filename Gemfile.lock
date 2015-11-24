@@ -132,6 +132,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-paginate
   therubyracer
 
 BUNDLED WITH
