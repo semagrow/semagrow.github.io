@@ -23,6 +23,8 @@
     url: "/configuration/"
   - title: Architecture
     url: "/architecture/"
+  - title: API Documentation
+    url: "/apidocs/1.4/" 
   - title: Wiki
     url: "/wiki/"
   - title: Reports and Publications
