@@ -1,50 +1,27 @@
 ---
 layout: page
 title: "About"
-subheadline: "Why another Jekyll Theme?"
-teaser: "Since years I am programming and designing websites. I love to work with open source tools and learn via code from others. This time I want to try to give something back..."
+subheadline: "The Semagrow federated SPARQL query processor"
+teaser: "Semagrow is a federated SPARQL query processor. Semagrow is open source, licensed under Apache 2.0"
 permalink: "/info/"
 header:
     image_fullwidth: "header_drop.jpg"
 ---
-...and learn at the same time.
 
-*Feeling Responsive* is my first theme which I let into the world. It's built on work and knowledge of others. While I am still designing it, you read about whats behind this theme in the – *hopefully* – near future.
+During 2012-2015 Semagrow development was partially funded by
+the *Seventh Framework Programme* of the European Commision
+under [Grant Agreement 318497][2].
+Please see the [SemaGrow project site][1] for more information about
+the project and its various outcomes besides the query federation
+endpoint described in this Web site.
 
+During 2015-2017 the Semagrow query processor will be piloted,
+maintained, and hardened in the context of the [Big Data Europe][3]
+action. Big Data Europe receives funding from the Horizon 2020
+research and innovation programme of the European Commision under
+[Grant Agreement 644564][4].
 
-## Features
-
-* Responsive Gallery, Videos, Grid, Typography,...
-* 100% GitHub Pages friendly
-* Easy editable navigation, footer and social media links
-* Language Ready – just translate one file.
-* Lots of possibilities to customize it to your needs
-* Lots of different headers
-* Various post formats to let your content shine
-* Uses Jekyll 3.0
-* Multiple possibilities to use images in different ways
-* Fine typography
-
-
-
-## I got inspired by...
-
-[Michael Rose][1] and his fabulous [themes for jekyll][2]. Authors of [A List Apart][4] and [Smashing Magazine][5] since 2002. [GitHub][6] and how they built such a habitat for cooperation worldwide. [Automattic][3] and how they built a fantastic community around WordPress. And many, many more...
-
-Please make *Feeling Responsive* yours and if you like it, please link back to my homebase <a href="http://phlow.de/">Phlow</a>. That would be awesome.
-
-#### Since then, fork it!
-
-Yours sincerelly, [Moritz »mo.« Sauer][7]
-
-
- [1]: http://mademistakes.com/about/
- [2]: http://mademistakes.com/work/jekyll-themes/
- [3]: http://automattic.com/
- [4]: http://alistapart.com/
- [5]: http://www.smashingmagazine.com/
- [6]: https://github.com/
- [7]: http://sauer.io
- [8]: #
- [9]: #
- [10]: #
+[1]: http://www.semagrow.eu
+[2]: http://cordis.europa.eu/project/rcn/106341_en.html
+[3]: http://www.big-data-europe.eu
+[4]: http://cordis.europa.eu/project/rcn/194216_en.html
