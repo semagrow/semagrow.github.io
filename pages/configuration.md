@@ -90,6 +90,12 @@ improves the estimation of what data is behind an endpoint by
 observing the results of a client query workload.
 
 
+<img src="/assets/img/metadatagen.jpg" alt="Metadata" style="width:100%;height:auto;"> 
+
+
+<img src="/assets/img/strhist.jpg" alt="Histogram" style="width:100%;height:auto;"> 
+
+
 [1]: http://www.w3.org/TeamSubmission/turtle
 [2]: http://www.w3.org/TR/void/ 
 [3]: http://www.w3.org/2015/03/sevod
