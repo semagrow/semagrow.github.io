@@ -89,11 +89,21 @@ solely for the purpose of estimating histograms: STRHist gradually
 improves the estimation of what data is behind an endpoint by
 observing the results of a client query workload.
 
+The time it takes for [metadatagen][7] to construct a detailed metadata file
+out of an RDF dumps is proportional to the size of the dump itself. Detailed
+measurements of the size over time is depicted in the following line chart.
 
-<img src="/assets/img/metadatagen.jpg" alt="Metadata" style="width:100%;height:auto;"> 
+<img src="/assets/img/metadatagen.png" alt="Metadata" style="width:100%;height:auto;"> 
 
+Therefore, although it is feasible for relatively small datasets to construct a full
+metadata file, in large scale it is recommended to use [STRHist][8] which constructs
+incrementally the metadata file using query results. In that way, metadata file is
+evolved over time becoming better and better every time. However, unexplored region
+of the dataset contain no metadata information resulting to cardinality misestimations. 
+In the following chart it is presented the error of STRHist over a period of learning
+from user query results in a database that also evolves over time.
 
-<img src="/assets/img/strhist.jpg" alt="Histogram" style="width:100%;height:auto;"> 
+<img src="/assets/img/strhist.png" alt="Histogram" style="width:100%;height:auto;"> 
 
 
 [1]: http://www.w3.org/TeamSubmission/turtle
