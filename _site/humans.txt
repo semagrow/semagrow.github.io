@@ -1,0 +1,36 @@
+/* TEAM */
+
+Name: George Stavrinos
+Site: https://github.com/gstavrinos
+
+Name: Angelos Charalambidis
+Site: https://github.com/acharal
+
+Name: Antonis Troumpoukis
+Site: https://github.com/antru6
+
+Name: Giannis Mouchakis
+Site: https://github.com/gmouchakis
+
+Name: Jürgen Jakobitsch
+Site: https://github.com/turnguard
+
+Name: Stasinos Konstantopoulos
+Site: https://github.com/stasinos
+
+
+/* THANKS */
+
+Name: Moritz »mo.« Sauer
+Role: Creator of the Theme
+Site: http://mo.phlow.de/
+Twitter: @phlow
+Theme: http://phlow.github.io/feeling-responsive/
+
+
+/* SITE */
+
+Last Updated: 2015/11/27
+Standards: HTML5, CSS3
+Software: Sublime Text, Chrome, Jekyll, Git, Imageoptim, JPEGMini, Gulp.js, Sass
+Components: Foundation Framework, Modernizr, jQuery, Backstretch.js, Reveal
