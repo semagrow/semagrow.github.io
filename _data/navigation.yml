@@ -23,8 +23,8 @@
     url: "/configuration/"
   - title: Architecture
     url: "/architecture/"
-  - title: API Documentation
-    url: "/apidocs/1.4/" 
+  - title: API Documentation (1.4)
+    url: "semagrow/api-1.4/" 
   - title: Wiki
     url: "https://github.com/semagrow/semagrow/wiki"
   - title: Reports and Publications
