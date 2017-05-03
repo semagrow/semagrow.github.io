@@ -23,7 +23,7 @@ header: no
 ## User Guides {#guides}
 
 **Source Metadata Editing: Guidelines and Tools**  
-[ELEON User Guide][7], November 2014.
+[ELEON User Guide][8], November 2014.
 
 
 ## Technical Reports {#reports}
@@ -43,19 +43,28 @@ header: no
 
 ## Scientific Publications {#publications}
 
+**Semantic Web Technologies and Big Data Infrastructures: SPARQL Federated Querying of Heterogeneous Big Data Stores**
+Stasinos Konstantopoulos, Angelos Charalambidis, Giannis Mouchakis, Antonis Troumpoukis, Jürgen Jakobitsch, and Vangelis Karkaletsis
+In Proceedings of the Posters and Demonstrations Track, 15th International Semantic Web Conference (ISWC 2016), Kobe, Japan, 19-21 October 2016.
+DOI: [10.5281/zenodo.160170][10]
+
+**Developing a Benchmark Suite for Semantic Web Data from Existing Workflows**
+Antonis Troumpoukis, Angelos Charalambidis, Giannis Mouchakis, Stasinos Konstantopoulos, Ronald Siebes, Victor de Boer, Stian Soiland-Reyes, and Daniela Digles
+In Proceedings of Workshop on Benchmarking Linked Data (BLINK), Kobe, Japan, 18 October 2016.
+Fulltext: [https://zenodo.org/record/159568][9]
+
+**Workload-aware self-tuning histograms of for the Semantic Web**  
+Katerina Zamani, Angelos Charalambidis, Stasinos Konstantopoulos, Nickolas Zoulis, and Effrosyni Mavroudi
+Transactions on Large-Scale Data and Knowledge-Centered Systems 28.
+Published as LNCS 9940, Springer, 10 September 2016.
+DOI: [10.1007/978-3-662-53455-7_6][6]
+Fulltext: [https://zenodo.org/record/159131][7]
+
 **SemaGrow: Optimizing federated SPARQL queries**  
 Angelos Charalambidis, Antonis Troumpoukis and Stasinos Konstantopoulos  
 In *Proceedings of the 11th International Conference on Semantic
 Systems (SEMANTiCS 2015)*, Vienna, Austria, 15-18 September 2015.  
 DOI: [10.1145/2814864.2814886][5]
-
-**Workload-aware self-tuning histograms of string data**  
-Nickolas Zoulis, Effrosyni Mavroudi, Anna Lykoura,
-Angelos Charalambidis and Stasinos Konstantopoulos  
-In *Proceedings of 26th International Conference on Database and
-Expert Systems Applications (DEXA 2015)*, Valencia, Spain, 1-4 September 2015.
-Published as LNCS 9261.
-DOI: [10.1007/978-3-319-22849-5_20][6]
 
 **Dataset descriptions for optimizing federated querying**  
 Angelos Charalambidis, Stasinos Konstantopoulos, and Vangelis Karkaletsis  
@@ -68,6 +77,9 @@ Conference (WWW 2015)*, May 18-22, 2015, Florence, Italy.
  [2]: http://semagrow.eu/sites/default/files/SemaGrow-D3.1.2-ResourceDiscovery.pdf
  [3]: http://semagrow.eu/sites/default/files/SemaGrow-D3.4.2-HeterogeneousDistributedSemanticQuerying.pdf
  [4]: http://semagrow.eu/sites/default/files/Semagrow-D2.3.4-LargeScaleDistributedArchitecture.pdf
- [5]: http://dx.doi.org/10.1145/2814864.2814886
- [6]: http://dx.doi.org/10.1007/978-3-319-22849-5_20
- [7]: /assets/pdf/metadata-editing.pdf 
+ [5]: https://doi.org/10.1145/2814864.2814886
+ [6]: https://doi.org/10.1007/978-3-662-53455-7_6
+ [7]: https://zenodo.org/record/159131
+ [8]: /assets/pdf/metadata-editing.pdf
+ [9]: https://zenodo.org/record/159568 
+[10]: https://doi.org/10.5281/zenodo.160170
